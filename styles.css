@@ -1,0 +1,107 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff7f0; /* 柔らかなオレンジ色の背景 */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffdab9; /* 暖かいペールオレンジ */
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* 各セクションのスタイル */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#home h2 {
+    color: #ff8c69; /* 暖かみのあるテキストカラー */
+}
+
+.service h3 {
+    color: #ff6347;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #ffead8;
+    padding: 1rem;
+    border-left: 5px solid #ff6347;
+    margin: 1rem 0;
+}
+
+/* テーブルのスタイル */
+table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ffdab9;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+/* お問い合わせフォームのスタイル */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+button {
+    background-color: #ff8c69;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+/* フッター */
+footer {
+    background-color: #ffdab9;
+    text-align: center;
+    padding: 1rem;
+}
